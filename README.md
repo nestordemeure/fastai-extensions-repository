@@ -6,25 +6,24 @@ All extensions are designed for fastai V1 unless told otherwise.
 *Do not hesitate to send a PR of start an issue to add elements to this list.*
 
 ## Domain specific
-- [timeseriesAI](https://github.com/timeseriesAI/timeseriesAI) a library to help you apply Deep Learning to your time series/ sequential datasets, in particular Time Series Classification (TSC) and Time Series Regression (TSR) problems ([discussion](https://forums.fast.ai/t/time-series-sequential-data-study-group/))
-- [Fast AI Audio](https://github.com/mogwai/fastai_audio) allow you to quickly and easily build machine learning models for a wide variety of audio applications ([discussion](https://forums.fast.ai/t/deep-learning-with-audio-thread/))
-- [Fast AI Audio V2](https://github.com/rbracco/fastai2_audio) (**V2**) an audio module for fastai V2, currently under development ([discussion](https://forums.fast.ai/t/fastai-v2-audio/))
+- **timeseriesAI** [repo](https://github.com/timeseriesAI/timeseriesAI) [discussion](https://forums.fast.ai/t/time-series-sequential-data-study-group/) a library to help you apply Deep Learning to your time series/ sequential datasets, in particular Time Series Classification (TSC) and Time Series Regression (TSR) problems
+- **Fast AI Audio** [repo v1](https://github.com/mogwai/fastai_audio) [discussion V1](https://forums.fast.ai/t/deep-learning-with-audio-thread/) [repo V2](https://github.com/rbracco/fastai2_audio) [discussion V2](https://forums.fast.ai/t/fastai-v2-audio/) allow you to quickly and easily build machine learning models for a wide variety of audio applications
 
 ## Callbacks
-- [BatchLossFilter](https://github.com/oguiza/fastai_extensions/blob/master/03_BatchLossFilter.ipynb) speed-up learning by focussing on the harder samples ([discussion](https://forums.fast.ai/t/meet-batchlossfilter-a-new-technique-to-speed-up-training/56621))
-- [Manifold mixup](https://github.com/nestordemeure/ManifoldMixup) applies mixup on inner layers for improved benefits and aplicability to arbitrary input types ([discussion](https://forums.fast.ai/t/mixup-data-augmentation/22764/53?u=nestordemeure))
-- [Cutout, Ricap and Cutmix](https://github.com/oguiza/fastai_extensions/blob/master/01_data_augmentation_notebook.ipynb) image data augmentation techniques ([discussion](https://forums.fast.ai/t/cutmix-mixup/))
-- [Blend](https://github.com/oguiza/fastai_extensions/blob/master/02_data_augmentation_blend.ipynb) image data augmentation that generalizes MixUp, Cutout, CutMix, RICAP and allows for data augmentation rate scheduling ([discussion](https://forums.fast.ai/t/data-augmentation-dynamic-blend/))
-- [MixMatch](https://github.com/oguiza/fastai_extensions/blob/master/04a_MixMatch_extended.ipynb) state-of-the-art semi-supervised learning ([blogpost](https://github.com/noachr/MixMatch-fastai/blob/master/MixMatch%20Blog.ipynb), [discussion](https://forums.fast.ai/t/semi-supervised-learning-ssl-uda-mixmatch-s4l/))
-- [Curriculum Learning Dropout](https://github.com/lessw2020/Curriculum-Learning-Dropout) dropout scheduler ([discussion](https://forums.fast.ai/t/improved-loss-with-curriculum-learning-paper-and-video/47337))
+- **BatchLossFilter** [repo](https://github.com/oguiza/fastai_extensions/blob/master/03_BatchLossFilter.ipynb) [discussion](https://forums.fast.ai/t/meet-batchlossfilter-a-new-technique-to-speed-up-training/56621) speed-up learning by focussing on the harder samples
+- **Manifold mixup** [repo](https://github.com/nestordemeure/ManifoldMixup) [discussion](https://forums.fast.ai/t/mixup-data-augmentation/22764/53?u=nestordemeure) applies mixup on inner layers for improved benefits and aplicability to arbitrary input types
+- **Cutout, Ricap and Cutmix** [repo](https://github.com/oguiza/fastai_extensions/blob/master/01_data_augmentation_notebook.ipynb) [discussion](https://forums.fast.ai/t/cutmix-mixup/) image data augmentation techniques
+- **Blend** [repo](https://github.com/oguiza/fastai_extensions/blob/master/02_data_augmentation_blend.ipynb) [discussion](https://forums.fast.ai/t/data-augmentation-dynamic-blend/) image data augmentation that generalizes MixUp, Cutout, CutMix, RICAP and allows for data augmentation rate scheduling
+- **MixMatch** [repo](https://github.com/oguiza/fastai_extensions/blob/master/04a_MixMatch_extended.ipynb) [discussion](https://forums.fast.ai/t/semi-supervised-learning-ssl-uda-mixmatch-s4l/) state-of-the-art semi-supervised learning
+- **Curriculum Learning Dropout** [repo](https://github.com/lessw2020/Curriculum-Learning-Dropout) [discussion](https://forums.fast.ai/t/improved-loss-with-curriculum-learning-paper-and-video/47337) dropout scheduler
 
 ## Optimizers
-- [Ranger](https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer) a synergistic optimizer combining RAdam (Rectified Adam) and LookAhead ([discussion](https://forums.fast.ai/t/meet-ranger-radam-lookahead-optimizer))
+- **Ranger** [repo](https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer) [discussion](https://forums.fast.ai/t/meet-ranger-radam-lookahead-optimizer) a synergistic optimizer combining RAdam (Rectified Adam) and LookAhead
 
 ## Models
-- [TabNet](https://github.com/mgrankin/fast_tabnet) (**V2**) attention-based network for tabular data ([discussion](https://forums.fast.ai/t/tabnet-with-fastai-v2/))
-- [MXResNet](https://github.com/lessw2020/mish/blob/master/mxresnet.py) FastAI's XResnet modified to use Mish activation function 
-- [res2net plus](https://github.com/lessw2020/res2net-plus) Res2Net architecture with improved stem and Mish activation function ([discussion](https://forums.fast.ai/t/res2net-with-some-improvements-and-implementation/))
+- **TabNet** [repo V2](https://github.com/mgrankin/fast_tabnet) [discussion](https://forums.fast.ai/t/tabnet-with-fastai-v2/) attention-based network for tabular data
+- **MXResNet** [repo](https://github.com/lessw2020/mish/blob/master/mxresnet.py) FastAI's XResnet modified to use Mish activation function 
+- **res2net plus** [repo](https://github.com/lessw2020/res2net-plus) [discussion](https://forums.fast.ai/t/res2net-with-some-improvements-and-implementation/) Res2Net architecture with improved stem and Mish activation function
 
 ## Activation functions
-- [Mish](https://github.com/lessw2020/mish) Mish Deep Learning Activation Function ([discussion](https://forums.fast.ai/t/meet-mish-new-activation-function-possible-successor-to-relu/))
+- **Mish** [repo](https://github.com/lessw2020/mish) [discussion](https://forums.fast.ai/t/meet-mish-new-activation-function-possible-successor-to-relu/) Mish Deep Learning Activation Function

@@ -27,3 +27,6 @@ All extensions are designed for fastai V1 unless told otherwise.
 
 ## Activation functions
 - **Mish** ([repo](https://github.com/lessw2020/mish) / [discussion](https://forums.fast.ai/t/meet-mish-new-activation-function-possible-successor-to-relu/)) Mish Deep Learning Activation Function
+
+## Deployment
+- **Fastai serving** ([repo](https://github.com/developmentseed/fastai-serving) / [discussion](https://forums.fast.ai/t/fastai-serving/)) a Docker image for serving fastai models, mimicking the API of Tensorflow Serving

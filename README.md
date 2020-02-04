@@ -6,7 +6,7 @@ All extensions are designed for fastai V1 unless told otherwise.
 *Do not hesitate to send a PR of start an issue to add elements to this list.*
 
 ## Domain specific
-- **timeseriesAI** ([repo](https://github.com/timeseriesAI/timeseriesAI) / [discussion](https://forums.fast.ai/t/time-series-sequential-data-study-group/)) a library to help you apply Deep Learning to your time series/ sequential datasets, in particular Time Series Classification (TSC) and Time Series Regression (TSR) problems
+- **TimeseriesAI** ([repo](https://github.com/timeseriesAI/timeseriesAI) / [discussion](https://forums.fast.ai/t/time-series-sequential-data-study-group/)) a library to help you apply Deep Learning to your time series/ sequential datasets, in particular Time Series Classification (TSC) and Time Series Regression (TSR) problems
 - **Fast AI Audio** ([repo-V1](https://github.com/mogwai/fastai_audio) / [discussion-V1](https://forums.fast.ai/t/deep-learning-with-audio-thread/) / [repo-V2](https://github.com/rbracco/fastai2_audio) / [discussion-V2](https://forums.fast.ai/t/fastai-v2-audio/)) allow you to quickly and easily build machine learning models for a wide variety of audio applications
 
 ## Callbacks
@@ -23,7 +23,7 @@ All extensions are designed for fastai V1 unless told otherwise.
 ## Models
 - **TabNet** ([repo-V2](https://github.com/mgrankin/fast_tabnet) / [discussion](https://forums.fast.ai/t/tabnet-with-fastai-v2/)) attention-based network for tabular data
 - **MXResNet** ([repo](https://github.com/lessw2020/mish/blob/master/mxresnet.py)) FastAI's XResnet modified to use Mish activation function 
-- **res2net plus** ([repo](https://github.com/lessw2020/res2net-plus) / [discussion](https://forums.fast.ai/t/res2net-with-some-improvements-and-implementation/)) Res2Net architecture with improved stem and Mish activation function
+- **Res2net plus** ([repo](https://github.com/lessw2020/res2net-plus) / [discussion](https://forums.fast.ai/t/res2net-with-some-improvements-and-implementation/)) Res2Net architecture with improved stem and Mish activation function
 
 ## Activation functions
 - **Mish** ([repo](https://github.com/lessw2020/mish) / [discussion](https://forums.fast.ai/t/meet-mish-new-activation-function-possible-successor-to-relu/)) Mish Deep Learning Activation Function

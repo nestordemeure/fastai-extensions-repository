@@ -1,6 +1,6 @@
 # The Fastai Extensions Repository
 
-A centralized repository for non-official [fastai](https://docs.fast.ai/) extensions.
+A centralized repository to improve the discoverability of non-official [fastai](https://docs.fast.ai/) extensions.
 All extensions are designed for fastai V1 unless told otherwise.
 
 *Do not hesitate to send a PR of start an issue to add elements to this list.*

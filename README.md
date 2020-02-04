@@ -27,7 +27,7 @@ All extensions are designed for fastai V1 unless told otherwise.
 - **Res2net plus** ([repo](https://github.com/lessw2020/res2net-plus) / [discussion](https://forums.fast.ai/t/res2net-with-some-improvements-and-implementation/)) Res2Net architecture with improved stem and Mish activation function
 
 ## Interpretation
-- **Feature importance** ([snippet](https://forums.fast.ai/t/feature-importance-in-deep-learning/42026/21) [discussion](https://forums.fast.ai/t/feature-importance-in-deep-learning/)) computing feature importance for tabular learners
+- **Feature importance** ([snippet](https://forums.fast.ai/t/feature-importance-in-deep-learning/42026/21) / [discussion](https://forums.fast.ai/t/feature-importance-in-deep-learning/)) computing feature importance for tabular learners
 
 ## Deployment
 - **Fastai serving** ([repo](https://github.com/developmentseed/fastai-serving) / [discussion](https://forums.fast.ai/t/fastai-serving/)) a Docker image for serving fastai models, mimicking the API of Tensorflow Serving

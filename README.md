@@ -20,6 +20,11 @@ All extensions are designed for fastai V1 unless told otherwise.
 - **wd finder** ([repo](https://github.com/DrHB/fastai_wd)) an extension of the learning rate finder to find a proper weight decay by grid search
 - **Curriculum Learning Dropout** ([repo](https://github.com/lessw2020/Curriculum-Learning-Dropout) / [discussion](https://forums.fast.ai/t/improved-loss-with-curriculum-learning-paper-and-video/47337)) dropout scheduler
 
+## Interpretation
+- **The Colorful Dimension** ([repo](https://github.com/artste/colorfuldim) / [discussion](https://forums.fast.ai/t/the-colorful-dimension/))  charts made by plotting the activations histogram epoch by epoch, coloring the pixel according to log of intensity
+- **The Twin Peaks Chart** ([repo](https://github.com/artste/colorfuldim) / [discussion](https://forums.fast.ai/t/the-twin-peaks-chart/)) a tool to evaluate the health of our model in real time
+- **Feature importance** ([snippet](https://forums.fast.ai/t/feature-importance-in-deep-learning/42026/21) / [discussion](https://forums.fast.ai/t/feature-importance-in-deep-learning/)) computing feature importance for tabular learners
+
 ## Models
 - **TabNet** ([repo-V2](https://github.com/mgrankin/fast_tabnet) / [discussion](https://forums.fast.ai/t/tabnet-with-fastai-v2/)) attention-based network for tabular data
 - **Mish** ([repo](https://github.com/lessw2020/mish) / [discussion](https://forums.fast.ai/t/meet-mish-new-activation-function-possible-successor-to-relu/)) Mish Deep Learning Activation Function
@@ -28,11 +33,6 @@ All extensions are designed for fastai V1 unless told otherwise.
 
 ## Optimizers
 - **Ranger** ([repo](https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer) / [discussion](https://forums.fast.ai/t/meet-ranger-radam-lookahead-optimizer)) a synergistic optimizer combining RAdam (Rectified Adam) and LookAhead
-
-## Interpretation
-- **The Colorful Dimension** ([repo](https://github.com/artste/colorfuldim) / [discussion](https://forums.fast.ai/t/the-colorful-dimension/))  charts made by plotting the activations histogram epoch by epoch, coloring the pixel according to log of intensity
-- **The Twin Peaks Chart** ([repo](https://github.com/artste/colorfuldim) / [discussion](https://forums.fast.ai/t/the-twin-peaks-chart/)) a tool to evaluate the health of our model in real time
-- **Feature importance** ([snippet](https://forums.fast.ai/t/feature-importance-in-deep-learning/42026/21) / [discussion](https://forums.fast.ai/t/feature-importance-in-deep-learning/)) computing feature importance for tabular learners
 
 ## Deployment
 - **Fastai serving** ([repo](https://github.com/developmentseed/fastai-serving) / [discussion](https://forums.fast.ai/t/fastai-serving/)) a Docker image for serving fastai models, mimicking the API of Tensorflow Serving

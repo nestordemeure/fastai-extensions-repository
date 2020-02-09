@@ -8,7 +8,7 @@ All extensions are designed for fastai V1 unless told otherwise.
 ## Domain specific
 - **TimeseriesAI** ([repo](https://github.com/timeseriesAI/timeseriesAI) / [discussion](https://forums.fast.ai/t/time-series-sequential-data-study-group/)) a library to help you apply Deep Learning to your time series/ sequential datasets, in particular Time Series Classification (TSC) and Time Series Regression (TSR) problems
 - **Fast AI Audio** ([repo-V1](https://github.com/mogwai/fastai_audio) / [discussion-V1](https://forums.fast.ai/t/deep-learning-with-audio-thread/) / [repo-V2](https://github.com/rbracco/fastai2_audio) / [discussion-V2](https://forums.fast.ai/t/fastai-v2-audio/)) allow you to quickly and easily build machine learning models for a wide variety of audio applications
-- **MetaAI** ([repo](https://github.com/Atom-101/MetaAI) / [discussion](https://forums.fast.ai/t/an-extension-of-fastai-for-meta-learning-algorithms/62657)) adds metalearning to fastai to train a model on a variety of learning tasks, such that it can solve new learning tasks using only a small number of training samples
+- **MetaAI** ([repo](https://github.com/Atom-101/MetaAI) / [discussion](https://forums.fast.ai/t/an-extension-of-fastai-for-meta-learning-algorithms/)) meta-learning algorithms to train a model on a variety of learning tasks, such that it can solve new learning tasks using only a small number of training samples
 
 ## Callbacks
 - **BatchLossFilter** ([repo](https://github.com/oguiza/fastai_extensions/blob/master/03_BatchLossFilter.ipynb) / [discussion](https://forums.fast.ai/t/meet-batchlossfilter-a-new-technique-to-speed-up-training/56621)) speed-up learning by focussing on the harder samples

@@ -22,7 +22,7 @@ All extensions are designed for fastai V1 unless told otherwise.
 - **Curriculum Learning Dropout** ([repo](https://github.com/lessw2020/Curriculum-Learning-Dropout) / [discussion](https://forums.fast.ai/t/improved-loss-with-curriculum-learning-paper-and-video/47337)) dropout scheduler
 
 ## Interpretation
-- **SHAP in fastai2** ([repo-V2](https://github.com/muellerzr/fastai2-SHAP) / [discussion](https://forums.fast.ai/t/feature-importance-in-deep-learning/42026/64)) using the SHAP interpretability library with fastai V2
+- **FastShap** ([repo-V2](https://github.com/muellerzr/fastshap) / [discussion](https://forums.fast.ai/t/feature-importance-in-deep-learning/42026/64)) using the SHAP interpretability library with fastai V2
 - **The Colorful Dimension** ([repo](https://github.com/artste/colorfuldim) / [discussion](https://forums.fast.ai/t/the-colorful-dimension/))  charts made by plotting the activations histogram epoch by epoch, coloring the pixel according to log of intensity
 - **The Twin Peaks Chart** ([repo](https://github.com/artste/colorfuldim) / [discussion](https://forums.fast.ai/t/the-twin-peaks-chart/)) a tool to evaluate the health of your classification model in real time
 - **Feature importance** ([snippet](https://forums.fast.ai/t/feature-importance-in-deep-learning/42026/21) / [discussion](https://forums.fast.ai/t/feature-importance-in-deep-learning/)) computing feature importance for tabular learners

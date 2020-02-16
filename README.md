@@ -12,7 +12,7 @@ All extensions are designed for fastai V1 unless told otherwise.
 
 ## Callbacks
 - **BatchLossFilter** ([repo](https://github.com/oguiza/fastai_extensions/blob/master/03_BatchLossFilter.ipynb) / [discussion](https://forums.fast.ai/t/meet-batchlossfilter-a-new-technique-to-speed-up-training/56621)) speed-up learning by focussing on the harder samples
-- **Manifold mixup and Output mixup** ([repo-V1](https://github.com/nestordemeure/ManifoldMixup) / [repo-V2](https://github.com/nestordemeure/ManifoldMixup/tree/V2) / [discussion](https://forums.fast.ai/t/mixup-data-augmentation/22764/53)) applies mixup on inner layers for improved benefits and aplicability to arbitrary input types
+- **Manifold mixup and Output mixup** ([repo-V1](https://github.com/nestordemeure/ManifoldMixup) / [repo-V2](https://github.com/nestordemeure/ManifoldMixupV2) / [discussion](https://forums.fast.ai/t/mixup-data-augmentation/22764/53)) applies mixup on inner layers for improved benefits and aplicability to arbitrary input types
 - **Cutout, Ricap and Cutmix** ([repo](https://github.com/oguiza/fastai_extensions/blob/master/01_data_augmentation_notebook.ipynb) / [discussion](https://forums.fast.ai/t/cutmix-mixup/)) image data augmentation techniques
 - **Blend** ([repo](https://github.com/oguiza/fastai_extensions/blob/master/02_data_augmentation_blend.ipynb) / [discussion](https://forums.fast.ai/t/data-augmentation-dynamic-blend/)) image data augmentation that generalizes MixUp, Cutout, CutMix, RICAP and allows for data augmentation rate scheduling
 - **MixMatch** ([repo](https://github.com/oguiza/fastai_extensions/blob/master/04a_MixMatch_extended.ipynb) / [discussion](https://forums.fast.ai/t/semi-supervised-learning-ssl-uda-mixmatch-s4l/)) state-of-the-art semi-supervised learning
@@ -25,6 +25,7 @@ All extensions are designed for fastai V1 unless told otherwise.
 - **FastShap** ([repo-V2](https://github.com/muellerzr/fastshap) / [discussion](https://forums.fast.ai/t/feature-importance-in-deep-learning/42026/64)) using the SHAP interpretability library with fastai V2
 - **The Colorful Dimension** ([repo](https://github.com/artste/colorfuldim) / [discussion](https://forums.fast.ai/t/the-colorful-dimension/))  charts made by plotting the activations histogram epoch by epoch, coloring the pixel according to log of intensity
 - **The Twin Peaks Chart** ([repo](https://github.com/artste/colorfuldim) / [discussion](https://forums.fast.ai/t/the-twin-peaks-chart/)) a tool to evaluate the health of your classification model in real time
+- **Tensorboard Callback** ([repo](https://github.com/Pendar2/fastai-tensorboard-callback) / [discussion](https://forums.fast.ai/t/tensorboard-callback-for-fastai/)) logs model and training information to display them with tensorboard
 - **Feature importance** ([snippet](https://forums.fast.ai/t/feature-importance-in-deep-learning/42026/21) / [discussion](https://forums.fast.ai/t/feature-importance-in-deep-learning/)) computing feature importance for tabular learners
 
 ## Models

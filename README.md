@@ -26,7 +26,7 @@ All extensions are designed for fastai V1 unless told otherwise.
 - **The Colorful Dimension** ([repo](https://github.com/artste/colorfuldim) / [discussion](https://forums.fast.ai/t/the-colorful-dimension/))  charts made by plotting the activations histogram epoch by epoch, coloring the pixel according to log of intensity
 - **The Twin Peaks Chart** ([repo](https://github.com/artste/colorfuldim) / [discussion](https://forums.fast.ai/t/the-twin-peaks-chart/)) a tool to evaluate the health of your classification model in real time
 - **Tensorboard Callback** ([repo](https://github.com/Pendar2/fastai-tensorboard-callback) / [discussion](https://forums.fast.ai/t/tensorboard-callback-for-fastai/)) logs model and training information to display them with tensorboard
-- **Feature importance** ([snippet](https://forums.fast.ai/t/feature-importance-in-deep-learning/42026/21) / [discussion](https://forums.fast.ai/t/feature-importance-in-deep-learning/)) computing feature importance for tabular learners
+- **Feature importance** ([repo](https://github.com/nestordemeure/permutationImportance) / [discussion](https://forums.fast.ai/t/feature-importance-in-deep-learning/)) computing feature importance for tabular learners using the permutation method
 
 ## Models
 - **TabNet** ([repo-V2](https://github.com/mgrankin/fast_tabnet) / [discussion](https://forums.fast.ai/t/tabnet-with-fastai-v2/)) attention-based network for tabular data

@@ -40,5 +40,8 @@ All extensions are designed for fastai V1 unless told otherwise.
 ## Optimizers
 - **Ranger** ([repo](https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer) / [discussion](https://forums.fast.ai/t/meet-ranger-radam-lookahead-optimizer)) a synergistic optimizer combining RAdam (Rectified Adam) and LookAhead
 
+## Notebook
+- **DDip** ([repo](https://github.com/philtrade/Ddip) / [discussion](https://forums.fast.ai/t/distributed-multi-gpu-training-with-fastai-in-jupyter-notebook/)) iPython extension to enable PyTorch's Distributed Data Parallel in fastai's notebooks 
+
 ## Deployment
 - **Fastai serving** ([repo](https://github.com/developmentseed/fastai-serving) / [discussion](https://forums.fast.ai/t/fastai-serving/)) a Docker image for serving fastai models, mimicking the API of Tensorflow Serving

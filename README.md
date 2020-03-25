@@ -34,6 +34,7 @@ All extensions are designed for fastai V1 unless told otherwise.
 - **TabNet** ([repo-V2](https://github.com/mgrankin/fast_tabnet) / [discussion](https://forums.fast.ai/t/tabnet-with-fastai-v2/)) attention-based network for tabular data
 - **FastHug** ([notebook-V1](https://www.kaggle.com/melissarajaram/roberta-fastai-huggingface-transformers/notebook) / [repo-V2](https://github.com/morganmcg1/fasthugs) / [discussion](https://forums.fast.ai/t/fasthugs-fastai-v2-and-huggingface-transformers/)) use fastai-v2 with HuggingFace's pretrained transformers
 - **TabularGP** ([repo](https://github.com/nestordemeure/tabularGP) / [discussion](https://forums.fast.ai/t/tabulargp-gaussian-processes-with-fastai/)) gaussian process for tabular data
+- **fastseq** ([repo-V2](https://github.com/takotab/fastseq) / [discussion](https://forums.fast.ai/t/time-series-sequential-data-study-group/29686/600)) implements the N-Beats time serie forecasting model
 - **Mish** ([repo](https://github.com/lessw2020/mish) / [discussion](https://forums.fast.ai/t/meet-mish-new-activation-function-possible-successor-to-relu/)) Mish Deep Learning Activation Function
 - **MXResNet** ([repo](https://github.com/lessw2020/mish/blob/master/mxresnet.py)) FastAI's XResnet modified to use Mish activation function 
 - **Res2net plus** ([repo](https://github.com/lessw2020/res2net-plus) / [discussion](https://forums.fast.ai/t/res2net-with-some-improvements-and-implementation/)) Res2Net architecture with improved stem and Mish activation function

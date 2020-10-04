@@ -16,7 +16,7 @@ All extensions are designed for fastai V2 unless told otherwise.
 - **Fastai2 Tabular Hybrid** ([repo](https://github.com/muellerzr/fastai2_tabular_hybrid) / [discussion](https://forums.fast.ai/t/fastai-v2-tabular/53530/213)) hybrid approaches to supporting more datatypes with fastai2 tabular
 - **TabularGP** ([repo](https://github.com/nestordemeure/tabularGP) / [discussion](https://forums.fast.ai/t/tabulargp-gaussian-processes-with-fastai/)) gaussian process for tabular data
 - **Fastseq** ([repo](https://github.com/takotab/fastseq) / [discussion](https://forums.fast.ai/t/time-series-sequential-data-study-group/29686/600)) implements the N-Beats time serie forecasting model
-- **Mish** ([repo](https://github.com/lessw2020/mish) / [discussion](https://forums.fast.ai/t/meet-mish-new-activation-function-possible-successor-to-relu/)) Mish Deep Learning Activation Function
+- **Mish** ([repo](https://github.com/digantamisra98/Mish) / [discussion](https://forums.fast.ai/t/meet-mish-new-activation-function-possible-successor-to-relu/)) Mish Deep Learning Activation Function
 
 ## Callbacks
 - **Manifold mixup and Output mixup** ([repo](https://github.com/nestordemeure/ManifoldMixupV2) / [discussion](https://forums.fast.ai/t/mixup-data-augmentation/22764/53)) applies mixup on inner layers for improved benefits and aplicability to arbitrary input types

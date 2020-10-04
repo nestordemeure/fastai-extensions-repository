@@ -11,16 +11,16 @@ All extensions are designed for fastai V2 unless told otherwise.
 - **MetaAI** ([repo-V1](https://github.com/Atom-101/MetaAI) / [discussion](https://forums.fast.ai/t/an-extension-of-fastai-for-meta-learning-algorithms/)) meta-learning algorithms to train a model on a variety of learning tasks, such that it can solve new learning tasks using only a small number of training samples
 
 ## Callbacks
-- **BatchLossFilter** ([repo-V1](https://github.com/oguiza/fastai_extensions/blob/master/03_BatchLossFilter.ipynb) / [discussion](https://forums.fast.ai/t/meet-batchlossfilter-a-new-technique-to-speed-up-training/56621)) speed-up learning by focussing on the harder samples
 - **Manifold mixup and Output mixup** ([repo](https://github.com/nestordemeure/ManifoldMixupV2) / [discussion](https://forums.fast.ai/t/mixup-data-augmentation/22764/53)) applies mixup on inner layers for improved benefits and aplicability to arbitrary input types
+- **BatchLossFilter** ([repo-V1](https://github.com/oguiza/fastai_extensions/blob/master/03_BatchLossFilter.ipynb) / [discussion](https://forums.fast.ai/t/meet-batchlossfilter-a-new-technique-to-speed-up-training/56621)) speed-up learning by focussing on the harder samples
 - **Cutout, Ricap and Cutmix** ([repo-V1](https://github.com/oguiza/fastai_extensions/blob/master/01_data_augmentation_notebook.ipynb) / [discussion](https://forums.fast.ai/t/cutmix-mixup/)) image data augmentation techniques
 - **Blend** ([repo-V1](https://github.com/oguiza/fastai_extensions/blob/master/02_data_augmentation_blend.ipynb) / [discussion](https://forums.fast.ai/t/data-augmentation-dynamic-blend/)) image data augmentation that generalizes MixUp, Cutout, CutMix, RICAP and allows for data augmentation rate scheduling
 - **MixMatch** ([repo-V1](https://github.com/oguiza/fastai_extensions/blob/master/04a_MixMatch_extended.ipynb) / [discussion](https://forums.fast.ai/t/semi-supervised-learning-ssl-uda-mixmatch-s4l/)) state-of-the-art semi-supervised learning
 
 ## Hyperparameters
+- **Batch size finder** ([repo](https://github.com/hal-314/fastai-batch-size-finder) / [discussion](https://forums.fast.ai/t/batch-size-finder-from-openai-implemented-using-fastai/57620)) batch size finder from OpenAI
 - **wd finder** ([repo-V1](https://github.com/DrHB/fastai_wd)) an extension of the learning rate finder to find a proper weight decay by grid search
 - **Curriculum Learning Dropout** ([repo-V1](https://github.com/lessw2020/Curriculum-Learning-Dropout) / [discussion](https://forums.fast.ai/t/improved-loss-with-curriculum-learning-paper-and-video/47337)) dropout scheduler
-- **Batch size finder** ([repo](https://github.com/hal-314/fastai-batch-size-finder) / [discussion](https://forums.fast.ai/t/batch-size-finder-from-openai-implemented-using-fastai/57620)) batch size finder from OpenAI
 
 ## Interpretation
 - **FastShap** ([repo](https://github.com/muellerzr/fastshap) / [discussion](https://forums.fast.ai/t/feature-importance-in-deep-learning/42026/64)) using the SHAP interpretability library with fastai

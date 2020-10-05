@@ -33,15 +33,15 @@ All extensions are designed for fastai V2 unless told otherwise.
 - **FastAI-LIME** ([repo-V1](https://github.com/anurags25/FastAI-LIME)) interpreting fastai CNN models using LIME
 - **Feature importance** ([repo-V1](https://github.com/nestordemeure/permutationImportance) / [discussion](https://forums.fast.ai/t/feature-importance-in-deep-learning/)) computing feature importance for tabular learners using the permutation method
 
-## Hyperparameters
-- **Batch size finder** ([repo](https://github.com/hal-314/fastai-batch-size-finder) / [discussion](https://forums.fast.ai/t/batch-size-finder-from-openai-implemented-using-fastai/57620)) batch size finder from OpenAI
-- **wd finder** ([repo-V1](https://github.com/DrHB/fastai_wd)) an extension of the learning rate finder to find a proper weight decay by grid search
-- **Curriculum Learning Dropout** ([repo-V1](https://github.com/lessw2020/Curriculum-Learning-Dropout) / [discussion](https://forums.fast.ai/t/improved-loss-with-curriculum-learning-paper-and-video/47337)) dropout scheduler
-
 ## Inference
 - **Fastinference** ([repo](https://github.com/muellerzr/fastinference) / [discussion](https://forums.fast.ai/t/a-walk-with-fastai2-fastinference-mini-series/73277)) a collection of inference modules for fastai including inference speedup and interpretability
 - **Fastinference-onnx** ([repo](https://github.com/muellerzr/fastinference_onnx)) an ONNX only version of fastai
 - **fastinference-pytorch** ([repo](https://github.com/muellerzr/fastinference_pytorch)) a PyTorch-only version of fastai
+
+## Hyperparameters
+- **Batch size finder** ([repo](https://github.com/hal-314/fastai-batch-size-finder) / [discussion](https://forums.fast.ai/t/batch-size-finder-from-openai-implemented-using-fastai/57620)) batch size finder from OpenAI
+- **wd finder** ([repo-V1](https://github.com/DrHB/fastai_wd)) an extension of the learning rate finder to find a proper weight decay by grid search
+- **Curriculum Learning Dropout** ([repo-V1](https://github.com/lessw2020/Curriculum-Learning-Dropout) / [discussion](https://forums.fast.ai/t/improved-loss-with-curriculum-learning-paper-and-video/47337)) dropout scheduler
 
 ## Optimizers
 - **Ranger** ([repo](https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer) / [discussion](https://forums.fast.ai/t/meet-ranger-radam-lookahead-optimizer)) a synergistic optimizer combining RAdam (Rectified Adam), LookAhead and Gradient Centralization
@@ -52,3 +52,5 @@ All extensions are designed for fastai V2 unless told otherwise.
 ## Deployment
 - **Fastai serving** ([repo](https://github.com/developmentseed/fastai-serving) / [discussion](https://forums.fast.ai/t/fastai-serving/)) a Docker image for serving fastai models, mimicking the API of Tensorflow Serving
 - **Fastai2 Starlette** ([repo](https://github.com/muellerzr/fastai2-Starlette)) a starting point to deploy models with Starlette
+- **FastAPI-Fastai2** ([repo](https://github.com/BoxOfCereal/FastAPI-Fastai2)) template to deploy models with FastAPI
+
